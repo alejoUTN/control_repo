@@ -1,6 +1,6 @@
 class minecraft {
   file {'/opt/minecraft':
-    ensure => dierctory,
+    ensure => directory,
   }
   file {'/opt/minecraft/minecraft_server.jar':
     ensure => file,
